@@ -1,0 +1,2 @@
+# neugal
+School Management
