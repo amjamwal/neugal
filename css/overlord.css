@@ -1,0 +1,12 @@
+/* Share icons */
+.share { width: 15em; min-width: 50%; padding: 0; margin: 0; list-style: none; display: inline-block; }
+.share:before, .share:after { content: ""; display: table; }
+.share:after { clear: both; }
+.lte-ie7 .share { zoom: 1; }
+.share__icon { width: 25%; height: 2em; font-size: 1.5em; float: left; line-height: 2em; }
+.share__icon a { color: inherit; display: block; }
+.share__icon--facebook a { color: #3B5998; }
+.share__icon--twitter a { color: #00ACED; }
+.share__icon--google a { color: #DD4B39; }
+/* Calendar list */
+.content__events__day__list__item__cal { display: none; }

@@ -1,0 +1,64 @@
+@font-face{font-family:'neristhin';src:url("/_site/fonts/Neris-Thin-webfont.eot");src:url("/_site/fonts/Neris-Thin-webfont.eot?#iefix") format("embedded-opentype"),
+url("/_site/fonts/Neris-Thin-webfont.woff") format("woff"),
+url("/_site/fonts/Neris-Thin-webfont.ttf") format("truetype"),
+url("/_site/fonts/Neris-Thin-webfont.svg#neristhin") format("svg")
+}
+@font-face{font-family:'nerislight';src:url("/_site/fonts/Neris-Light-webfont.eot");src:url("/_site/fonts/Neris-Light-webfont.eot?#iefix") format("embedded-opentype"),
+url("/_site/fonts/Neris-Light-webfont.woff") format("woff"),
+url("/_site/fonts/Neris-Light-webfont.ttf") format("truetype"),
+url("/_site/fonts/Neris-Light-webfont.svg#nerislight") format("svg")
+}
+@font-face{font-family:'nerissemibold';src:url("/_site/fonts/Neris-SemiBold-webfont.eot");src:url("/_site/fonts/Neris-SemiBold-webfont.eot?#iefix") format("embedded-opentype"),
+url("/_site/fonts/Neris-SemiBold-webfont.woff") format("woff"),
+url("/_site/fonts/Neris-SemiBold-webfont.ttf") format("truetype"),
+url("/_site/fonts/Neris-SemiBold-webfont.svg#nerissemibold") format("svg")
+}
+.content__attachments__list {
+    padding:0;
+    margin:0;
+    list-style:none
+}
+.content__attachments__list__item {
+    padding:.5em .5em .5em 50px;
+    background:url("/_includes/images/icons/txt.gif") no-repeat left center
+}
+.content__attachments__list__item--pdf {
+    background-image:url("/_includes/images/icons/pdf.gif")
+}
+.content__attachments__list__item--zip {
+    background-image:url("/_includes/images/icons/zip.gif")
+}
+.content__attachments__list__item--csv {
+    background-image:url("/_includes/images/icons/csv.gif")
+}
+.content__attachments__list__item--doc,
+.content__attachments__list__item--docx {
+    background-image:url("/_includes/images/icons/doc.gif")
+}
+.content__attachments__list__item--xls,
+.content__attachments__list__item--xlsx {
+    background-image:url("/_includes/images/icons/xls.gif")
+}
+.content__attachments__list__item--pub {
+    background-image:url("/_includes/images/icons/pub.gif")
+}
+.content__attachments__list__item--ppt,
+.content__attachments__list__item--pptx,
+.content__attachments__list__item--pps,
+.content__attachments__list__item--ppsx,
+.content__attachments__list__item--pptm {
+    background-image:url("/_includes/images/icons/ppt.gif")
+}
+.content__attachments__list__item--mp3 {
+    background-image:url("/_includes/images/icons/mp3.gif")
+}
+.content__attachments__list__item--gif {
+    background-image:url("/_includes/images/icons/gif.gif")
+}
+.content__attachments__list__item--jpg,
+.content__attachments__list__item--jpeg {
+    background-image:url("/_includes/images/icons/jpg.gif")
+}
+.content__attachments__list__item--png {
+    background-image:url("/_includes/images/icons/png.gif")
+}
