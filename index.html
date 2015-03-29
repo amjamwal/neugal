@@ -1,0 +1,486 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Neugal Public School</title>
+
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--[if IE]>
+    <script type="text/javascript">
+        console = {
+            log: function () {
+                return;
+            }
+        };
+    </script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        var boolItemEditDisabled;
+        var intNewFileCount = 0;
+        strItemType = "page";
+        strSubItemType = "page";
+
+        intParentPageID = "0";
+        intCurrentItemID = 1;
+        var intCurrentCatID = "";
+        boolIsHomePage = true;
+        boolItemEditDisabled = false;
+
+    </script>
+
+    <script language="javascript" type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/home.css"/>
+
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <script type="text/javascript">
+        var iOS = ( navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false );
+        if (iOS) {
+            $('html').removeClass('no-ios').addClass('ios');
+        }
+    </script>
+    <script language="javascript" type="text/javascript" src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<div class="mason mason--home">
+    <section class="quicklinks">
+        <ul class="quicklinks__list">
+            <li class="quicklinks__list__item">
+
+            </li>
+            <li class="quicklinks__list__item">
+
+            </li>
+            <li class="quicklinks__list__item">
+
+            </li>
+            <li class="quicklinks__list__item">
+
+            </li>
+        </ul>
+    </section>
+
+    <!-- Add your site or application content here -->
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo" href="/"><img src="img/logo.png"></a>
+
+            <h1 class="header__title">Neugal Public School</h1>
+            <!--<img class="header__subtitle" src="img/header_subtitle.png">-->
+            <!--<img class="header__script" src="img/header_script.png">-->
+            <button class="header__btn" data-toggle=".mason--menu">
+				<span class="header__btn__icon">
+					<span class="header__btn__icon__bar header__btn__icon__bar--one"></span>
+					<span class="header__btn__icon__bar header__btn__icon__bar--two"></span>
+					<span class="header__btn__icon__bar header__btn__icon__bar--three"></span>
+					<span class="header__btn__icon__bar header__btn__icon__bar--four"></span>
+				</span>
+            </button>
+        </div>
+    </header>
+
+    <section class="menu">
+        <nav class="menu__sidebar">
+            <ul class="menu__sidebar__list">
+                <li class="menu__sidebar__list__item menu__sidebar__list__item--page_1 menu__sidebar__list__item--selected menu__sidebar__list__item--final">
+                    <a class="menu__sidebar__list__item__link" id="page_1" href="/">
+                        <span>Home</span>
+                    </a>
+                    <button class="menu__sidebar__list__item__button"
+                            data-tab=".menu__sidebar__list__item--page_1--expand">
+                        <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                    </button>
+                </li>
+                <li class="menu__sidebar__list__item menu__sidebar__list__item--page_6 menu__sidebar__list__item--subitems">
+                    <a class="menu__sidebar__list__item__link" id="page_6" href="underconstruction.html">
+                        <span>Our School</span>
+                    </a>
+                    <button class="menu__sidebar__list__item__button"
+                            data-tab=".menu__sidebar__list__item--page_6--expand">
+                        <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                    </button>
+                    <ul class="menu__sidebar__list__item__sub">
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_59">
+                            <a class="menu__sidebar__list__item__link" id="page_59"
+                               href="underconstruction.html">
+                                <span>Aims &amp; Vision</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_59--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_44">
+                            <a class="menu__sidebar__list__item__link" id="page_44"
+                               href="underconstruction.html">
+                                <span>Admissions</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_44--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_27">
+                            <a class="menu__sidebar__list__item__link" id="page_27"
+                               href="underconstruction.html">
+                                <span>Academy Policies</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_27--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_8">
+                            <a class="menu__sidebar__list__item__link" id="page_8"
+                               href="underconstruction.html">
+                                <span>Meet Our Staff</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_8--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_39">
+                            <a class="menu__sidebar__list__item__link" id="page_39"
+                               href="underconstruction.html">
+                                <span>Our Prospectus&#160;</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_39--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_42">
+                            <a class="menu__sidebar__list__item__link" id="page_42"
+                               href="underconstruction.html">
+                                <span>Current Vacancies</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_42--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__sidebar__list__item menu__sidebar__list__item--page_3 menu__sidebar__list__item--subitems">
+                    <a class="menu__sidebar__list__item__link" id="page_3"
+                       href="underconstruction.html">
+                        <span>News &amp; Events</span>
+                    </a>
+                    <button class="menu__sidebar__list__item__button"
+                            data-tab=".menu__sidebar__list__item--page_3--expand">
+                        <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                    </button>
+                    <ul class="menu__sidebar__list__item__sub">
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--url_3">
+                            <a class="menu__sidebar__list__item__link" id="url_3"
+                               href="underconstruction.html">
+                                <span>Calendar of Events</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--url_3--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--news_category_1">
+                            <a class="menu__sidebar__list__item__link" id="news_category_1"
+                               href="underconstruction.html">
+                                <span>Latest News</span></a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--news_category_1--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_79">
+                            <a class="menu__sidebar__list__item__link" id="page_79"
+                               href="underconstruction.html">
+                                <span>Gallery</span></a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_79--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__sidebar__list__item menu__sidebar__list__item--page_13 menu__sidebar__list__item--subitems">
+                    <a class="menu__sidebar__list__item__link" id="page_13"
+                       href="underconstruction.html">
+                        <span>Parents Information</span>
+                    </a>
+                    <button class="menu__sidebar__list__item__button"
+                            data-tab=".menu__sidebar__list__item--page_13--expand">
+                        <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                    </button>
+                    <ul class="menu__sidebar__list__item__sub">
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_54">
+                            <a class="menu__sidebar__list__item__link" id="page_54"
+                               href="underconstruction.html">
+                                <span>After School Clubs</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_54--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_52">
+                            <a class="menu__sidebar__list__item__link" id="page_52"
+                               href="underconstruction.html">
+                                <span>The School Day</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_52--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_76">
+                            <a class="menu__sidebar__list__item__link" id="page_76"
+                               href="underconstruction.html">
+                                <span>Term Dates</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_76--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_49">
+                            <a class="menu__sidebar__list__item__link" id="page_49"
+                               href="underconstruction.html">
+                                <span>School Uniform</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_49--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__sidebar__list__item menu__sidebar__list__item--page_2 menu__sidebar__list__item--subitems">
+                    <a class="menu__sidebar__list__item__link" id="page_2" href="underconstruction.html">
+                        <span>Contact Us</span>
+                    </a>
+                    <button class="menu__sidebar__list__item__button"
+                            data-tab=".menu__sidebar__list__item--page_2--expand">
+                        <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                    </button>
+                    <ul class="menu__sidebar__list__item__sub">
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--page_57">
+                            <a class="menu__sidebar__list__item__link" id="page_57"
+                               href="underconstruction.html">
+                                <span>How to find Us</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--page_57--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                        <li class="menu__sidebar__list__item menu__sidebar__list__item--form_16">
+                            <a class="menu__sidebar__list__item__link" id="form_16" href="/form/?pid=2&amp;form=16">
+                                <span>Enquiries</span>
+                            </a>
+                            <button class="menu__sidebar__list__item__button"
+                                    data-tab=".menu__sidebar__list__item--form_16--expand">
+                                <i class="menu__sidebar__list__item__button__icon fa fa-angle-down"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="hero">
+        <div class="hero__slider"
+             style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; -webkit-perspective: 1000px; -webkit-backface-visibility: hidden; width: 1265px; height: 384px;">
+            <div class="slider"
+                 style="position: relative; -webkit-perspective: 0; -webkit-backface-visibility: hidden; width: 5060px; cursor: default; -webkit-transform: matrix(1, 0, 0, 1, -8855, 0);">
+                <div class="hero__slider__item"
+                     style="-webkit-backface-visibility: hidden; width: 1265px; overflow: hidden; position: absolute; -webkit-transform: matrix(1, 0, 0, 1, 10120, 0);">
+                    <img src="img/scroll1.gif" data-fill=".hero__slider__item"
+                         style="width: 1275px; height: 432px; opacity: 1; position: absolute; top: 50%; left: 50%; margin-top: -216px; margin-left: -637px;">
+                </div>
+                <div class="hero__slider__item"
+                     style="-webkit-backface-visibility: hidden; width: 1265px; overflow: hidden; position: absolute; -webkit-transform: matrix(1, 0, 0, 1, 6325, 0);">
+                    <img src="img/scroll2.jpg" data-fill=".hero__slider__item"
+                         style="width: 1275px; height: 654px; opacity: 1; position: absolute; top: 50%; left: 50%; margin-top: -327px; margin-left: -637px;">
+                </div>
+                <div class="hero__slider__item"
+                     style="-webkit-backface-visibility: hidden; width: 1265px; overflow: hidden; position: absolute; -webkit-transform: matrix(1, 0, 0, 1, 7590, 0);">
+                    <img src="img/scroll3.jpg" data-fill=".hero__slider__item"
+                         style="width: 1275px; height: 432px; opacity: 1; position: absolute; top: 50%; left: 50%; margin-top: -216px; margin-left: -637px;">
+                </div>
+                <div class="hero__slider__item active"
+                     style="-webkit-backface-visibility: hidden; width: 1265px; overflow: hidden; position: absolute; -webkit-transform: matrix(1, 0, 0, 1, 8855, 0);">
+                    <img src="img/scroll4.JPG" data-fill=".hero__slider__item"
+                         style="width: 1275px; height: 956px; opacity: 1; position: absolute; top: 50%; left: 50%; margin-top: -478px; margin-left: -637px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main">
+        <div class="content content--page">
+            <a class="content__anchor" name="content"></a>
+
+            <h1 class="content__title" id="itemTitle">Home</h1>
+
+            <div class="content__region">NULL
+
+            </div>
+        </div>
+
+
+        <div class="home__block home__block--odd home__events">
+            <h2 class="home__title">Events</h2>
+            <ul class="upcoming__list">
+                <li class="calendar__events__day calendar__events__day--id_13">
+                    <div class="calendar__events__day__date">
+                        <div class="upcoming__month">July</div>
+                        <div class="upcoming__day">24</div>
+                    </div>
+                    <div class="calendar__events__day__date calendar__events__day__date--back">
+                        <div class="upcoming__month">July</div>
+                        <div class="upcoming__day">24</div>
+                    </div>
+                    <div class="calendar__events__day__title">School day</div>
+                    <a class="calendar__events__day__link"
+                       href="underconstruction.html">
+                        More Details &raquo;
+                    </a>
+                </li>
+                <li class="calendar__events__day calendar__events__day--id_11">
+                    <div class="calendar__events__day__date">
+                        <div class="upcoming__month">July</div>
+                        <div class="upcoming__day">27</div>
+                    </div>
+                    <div class="calendar__events__day__date calendar__events__day__date--back">
+                        <div class="upcoming__month">July</div>
+                        <div class="upcoming__day">27</div>
+                    </div>
+                    <div class="calendar__events__day__title">Sports day</div>
+                    <a class="calendar__events__day__link"
+                       href="underconstruction.html">
+                        More Details &raquo;
+                    </a>
+                </li>
+            </ul>
+            <a href="underconstruction.html" class="btn home__btn">
+                <span class="link__skew"></span>
+                <span class="home__btn__text">More Events</span>
+
+                <div class="home__btn__icon"></div>
+            </a>
+        </div>
+        <div class="home__block home__block--even home__news">
+            <div class="home__news--prev"></div>
+            <div class="home__news--next"></div>
+            <h2 class="home__title">News</h2>
+            <ul class="news__list">
+                <li class="news__list__item news__list__item--1 news__list__item--first news__list__item--odd news__list__item--priority_1">
+                    <div class="news__list__item__img">
+                        <img src="img/news1.jpg" data-fill=".news__list__item__img">
+                    </div>
+                    <div class="news__list__item__info">
+                        <div class="news__list__item__info__title">Childern's Day Celebration</div>
+                        <a class="news__list__item__link" href="underconstruction.html">Read More &raquo;</a>
+                    </div>
+                </li>
+                <li class="news__list__item news__list__item--2 news__list__item--even">
+                    <div class="news__list__item__img">
+                        <img src="img/news1.jpg" data-fill=".news__list__item__img">
+                    </div>
+                    <div class="news__list__item__info">
+                        <div class="news__list__item__info__title">Mothers Day Competition</div>
+                        <a class="news__list__item__link" href="underconstruction.html">Read More &raquo;</a>
+                    </div>
+                </li>
+                <li class="news__list__item news__list__item--3 news__list__item--odd">
+                    <div class="news__list__item__img">
+                        <img src="img/news1.jpg" data-fill=".news__list__item__img">
+                    </div>
+                    <div class="news__list__item__info">
+                        <div class="news__list__item__info__title">Poultry visit</div>
+                        <a class="news__list__item__link" href="underconstruction.html">Read More &raquo;</a>
+                    </div>
+                </li>
+            </ul>
+            <a href="underconstruction.html" class="btn home__btn">
+                <span class="link__skew"></span>
+                <span class="home__btn__text">More News</span>
+
+                <div class="home__btn__icon"></div>
+            </a>
+        </div>
+
+        <div class="home__block home__picturelink home__picturelink--1">
+            <div class="picturelink picturelink">
+                <a href="underconstruction.html" class="picturelink__link">
+                    <div class="picturelink__list__item__img">
+                        <img src="img/news1.jpg"
+                             data-fill=".picturelink__list__item__img">
+                    </div>
+                    <div class="picturelink__list__item__text">
+                        <span class="picturelink__list__item__skew link__skew"></span>
+                        <span class="picturelink__list__item__title">Prospectus</span>
+                        <img class="picturelink__list__item__icon"
+                             src="img/news3.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="home__block home__picturelink home__picturelink--2">
+            <div class="picturelink picturelink">
+                <a href="underconstruction.html" class="picturelink__link">
+                    <div class="picturelink__list__item__img">
+                        <img src="img/news1.jpg"
+                             data-fill=".picturelink__list__item__img">
+                    </div>
+                    <div class="picturelink__list__item__text">
+                        <span class="picturelink__list__item__skew link__skew"></span>
+                        <span class="picturelink__list__item__title">Case Studies</span>
+                        <img class="picturelink__list__item__icon"
+                             src="img/news2.jpg">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contact">
+            <p>Neugal Public School, Bhawarna, Palampur, Kangra, Himachal Pradesh<br/>
+                Tel: 01894-20-0000
+                <span class="footer__divider">&bull;</span>
+                Fax: 01894 269 2090<br/>
+                <a href="mailto:admin@neugal.co.in">admin@neugal.co.in</a>
+            </p>
+        </div>
+        <div class="footer__legal">
+            <p>&copy; 2015 Neugal Public School<br/>
+                Website Design by <a target="_blank" href="http://www.t4tinda.co.in">t4tinda</a><br/>
+            </p>
+        </div>
+        <div class="footer__logo">
+
+        </div>
+    </footer>
+
+</div>
+
+<script src="js/vendor/jquery.cycle2.min.js"></script>
+<script src="js/vendor/jquery.iosslider.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
